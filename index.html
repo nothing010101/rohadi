@@ -30,7 +30,7 @@
   .eyebrow::before{content:''; width:16px; height:1px; background:var(--ink-soft);}
   .wrap{max-width:1320px; margin:0 auto; padding:0 clamp(24px, 5vw, 80px);}
 
-  
+  /* ===== PRELOADER ===== */
   #preloader{
     position:fixed; inset:0; z-index:9999; background:#fff; display:flex; flex-direction:column;
     align-items:center; justify-content:center; transition:opacity .6s ease, visibility .6s ease;
@@ -286,7 +286,7 @@
   <div class="stat-strip reveal">
     <div class="stat"><div class="n">7</div><div class="l">Jenis Proyek</div></div>
     <div class="stat"><div class="n">56</div><div class="l">Dokumentasi Foto</div></div>
-    <div class="stat"><div class="n">indonesia</div><div class="l">Area Kerja</div></div>
+    <div class="stat"><div class="n">Tegal—Brebes</div><div class="l">Area Kerja</div></div>
   </div>
 
   <section class="projects" id="tipe-rumah">
@@ -315,7 +315,7 @@
 <section class="cta-strip" id="kontak">
   <div class="eyebrow" style="justify-content:center;">Konsultasi Gratis</div>
   <h2>Ada rencana bangun atau renovasi? Ceritakan ke kami.</h2>
-  <p>Ceritakan lokasi dan rencana bangun anda, kami balas via WhatsApp.</p>
+  <p>Ceritakan lokasi dan rencana bangun lo, kami balas via WhatsApp.</p>
   <a class="btn-accent" href="https://wa.me/6281717240995" target="_blank" rel="noopener">Chat via WhatsApp</a>
 </section>
 
@@ -371,11 +371,11 @@
   ];
 
   const HOUSE_TYPES = [
-    { slug:'scan', title:'Scandinavian', count:11, ext:'jpg', folder:'type rumah' },
-    { slug:'clas', title:'Classic', count:11, ext:'jpg', folder:'type rumah' },
-    { slug:'min', title:'Minimalis', count:18, ext:'jpg', folder:'type rumah' },
-    { slug:'japan', title:'Japandi', count:11, ext:'jpg', folder:'type rumah' },
-    { slug:'indus', title:'Industrial', count:14, ext:'jpg', folder:'type rumah' },
+    { slug:'scan', title:'Scandinavian', spec:'Ganti sesuai spesifikasi', count:11, ext:'jpg', folder:'type rumah' },
+    { slug:'clas', title:'Classic', spec:'Ganti sesuai spesifikasi', count:11, ext:'jpg', folder:'type rumah' },
+    { slug:'min', title:'Minimalis', spec:'Ganti sesuai spesifikasi', count:18, ext:'jpg', folder:'type rumah' },
+    { slug:'japan', title:'Japandi', spec:'Ganti sesuai spesifikasi', count:11, ext:'jpg', folder:'type rumah' },
+    { slug:'indus', title:'Industrial', spec:'Ganti sesuai spesifikasi', count:14, ext:'jpg', folder:'type rumah' },
   ];
 
   const SERVICES = ['Pemasangan Kanopi & Atap','Desain Bangunan Ritel','Desain Tempat Ibadah','Desain Fasilitas Kesehatan','Desain Rumah Tinggal','Pembangunan Baru','Renovasi'];
